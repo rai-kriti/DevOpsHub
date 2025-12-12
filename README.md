@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+<div align="center">
 
-## Project info
+# 🚀 **DevOps Hub**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+### A clean, fast, modern frontend project explaining DevOps concepts through an intuitive UI.  
+**Live Site:** https://dev-ops-hub.vercel.app/
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🏷️ Badges
 
-**Use Lovable**
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![shadcn-ui](https://img.shields.io/badge/shadcn--ui-000?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+</div>
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+# 📌 **Introduction**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+DevOps Hub is a Vite + React + TypeScript web application designed to simplify DevOps learning.  
+It covers modern DevOps practices such as CI/CD, automation, pipelines, and cloud tooling while showcasing:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Clean UI architecture  
+- Professional repository structure  
+- CI/CD-ready deployment practices  
+- Modern frontend tooling  
 
-Follow these steps:
+This project also demonstrates proper documentation, deployment, and DevOps-focused thinking.
+
+---
+
+# 🛠 **Tech Stack**
+
+- **Vite** – Build tool  
+- **React** – UI framework  
+- **TypeScript** – Type safety  
+- **Tailwind CSS** – Styling  
+- **shadcn-ui** – Components  
+- **Vercel** – Deployment  
+
+---
+
+# 📦 **Getting Started**
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
