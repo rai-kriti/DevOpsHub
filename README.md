@@ -146,7 +146,7 @@ This README fulfills documentation + professionalism criteria for academic rubri
 <div align="center">
 📄 License
 
-MIT License
+Apache 2.0 License
 
 
 Made with ❤️ + ⚙️ by a DevOps learner.
