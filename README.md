@@ -66,36 +66,33 @@ git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 npm install
 npm run dev
-
-
-
-
-
+```
 
 Local server runs at:
-
+```
 http://localhost:5173
-
+```
 🏗 Production Build
+```
 npm run build
 npm run preview
-
-
+```
 Build output:
-
+```
 dist/
+```
 
 🚀 Deployment (Vercel)
 Setting	Value
-Framework	Vite
-Build Command	npm run build
-Output Directory	dist
-Install Command	npm install
-Root Directory	./
+Framework: 	Vite
+Build Command: 	npm run build
+Output Directory: dist
+Install Command:	npm install
+Root Directory:	./
 
 Vercel automatically deploys on every push to main.
 
-🧱 Project Architecture Diagram
+```
 DevOps-Hub/
 │
 ├── public/               → Static assets (favicon, metadata)
@@ -113,39 +110,18 @@ DevOps-Hub/
 ├── tailwind.config.js    → Styling config
 ├── vite.config.ts        → Build config
 └── README.md             → Documentation
+```
 
-🔧 Commands Used
-Development
-npm run dev
+Development ```npm run dev```
 
-Build
-npm run build
+Build ```npm run build```
 
 Git Workflow
+```
 git add .
 git commit -m "update"
 git push
-
-⚠️ Challenges & Solutions
-1️⃣ Favicon Caching Issues
-
-Browsers kept showing the old icon.
-✔ Solution: Renamed favicon, cleared browser cache, updated link tags.
-
-2️⃣ Template Metadata Conflicts
-
-Auto-generated metadata caused branding issues.
-✔ Solution: Removed and replaced OG tags, favicon references, and meta descriptions.
-
-3️⃣ Vercel Asset Loading Errors
-
-Assets weren’t loading from /dist.
-✔ Solution: Verified correct output directory and Vite config.
-
-4️⃣ Tailwind + shadcn Styling Conflicts
-
-UI spacing & theme mismatches.
-✔ Solution: Adjusted Tailwind config + proper component overrides.
+```
 
 ✅ Conclusion
 
@@ -165,11 +141,15 @@ Strong coding + styling practices
 
 This README fulfills documentation + professionalism criteria for academic rubrics.
 
+
+
 <div align="center">
 📄 License
 
 MIT License
 
+
 Made with ❤️ + ⚙️ by a DevOps learner.
 
-</div> ```
+</div> 
+
