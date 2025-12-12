@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.icons8.com/external-flaticons-flat-flat-icons/512/external-devops-devops-flaticons-flat-flat-icons.png" width="140"/>
+<img src="https://img.icons8.com/external-flaticons-flat-flat-icons/512/external-devops-devops-flaticons-flat-flat-icons.png](https://e7.pngegg.com/pngimages/659/158/png-clipart-devops-business-process-software-development-process-implementation-business-text-people.png" width="140"/>
 
 # 🚀 **DevOps Hub**
 
