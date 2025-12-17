@@ -127,6 +127,7 @@ const Footer = () => {
             © {new Date().getFullYear()} DevOps Hub. Automate • Deploy • Scale
           </motion.p>
         </div>
+        {/* experimental version */}
       </div>
     </footer>
   );
