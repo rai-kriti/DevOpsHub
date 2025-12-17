@@ -127,7 +127,7 @@ const Resources = () => {
                       key={resource.name}
                       variants={itemVariants}
                       whileHover={{ y: -5, transition: { duration: 0.2 } }}
-                      className="group gradient-border p-5 rounded-xl cursor-pointer"
+                      className="group gradient-border p-5 rounded-xl "
                     >
                       {/* Documentation type */}
                       {'url' in resource && (
@@ -143,7 +143,7 @@ const Resources = () => {
                             href={resource.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
+                            className=" pointer-events-auto inline-flex items-center gap-1 text-sm text-primary hover:text-primary/80 transition-colors"
                           >
                             Visit docs <ExternalLink className="w-3 h-3" />
                           </a>
