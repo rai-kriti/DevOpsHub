@@ -125,9 +125,10 @@ const Footer = () => {
             className="text-xs text-muted-foreground/50 mt-4"
           >
             © {new Date().getFullYear()} DevOps Hub. Automate • Deploy • Scale
+            <p>-Kriti Rai</p>
           </motion.p>
         </div>
-        {/* experimental version */}
+        {/* experiment edits */}
       </div>
     </footer>
   );
