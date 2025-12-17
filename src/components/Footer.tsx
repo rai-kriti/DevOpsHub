@@ -98,7 +98,7 @@ const Footer = () => {
 
   <div className="flex items-center gap-6">
     <a
-      href="https://instagram.com/YOUR_USERNAME"
+      href="https://instagram.com/very_pretty_kriti"
       target="_blank"
       rel="noopener noreferrer"
       className="text-muted-foreground hover:text-pink-500 transition-colors"
@@ -107,7 +107,7 @@ const Footer = () => {
     </a>
 
     <a
-      href="https://linkedin.com/in/YOUR_USERNAME"
+      href="https://linkedin.com/in/rai-kriti"
       target="_blank"
       rel="noopener noreferrer"
       className="text-muted-foreground hover:text-blue-500 transition-colors"
@@ -116,7 +116,7 @@ const Footer = () => {
     </a>
 
     <a
-      href="https://github.com/YOUR_USERNAME"
+      href="https://github.com/rai-kriti"
       target="_blank"
       rel="noopener noreferrer"
       className="text-muted-foreground hover:text-primary transition-colors"
