@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SiDocker, SiKubernetes, SiGit, SiTerraform } from "react-icons/si";
 import { Terminal, Heart } from "lucide-react";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -70,6 +72,50 @@ const Footer = () => {
             <Heart className="w-4 h-4 text-destructive fill-destructive animate-pulse" />
             <span>for the DevOps community</span>
           </motion.div>
+
+
+          {/* Contact Developer */}
+<motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ delay: 0.35 }}
+  className="flex flex-col items-center gap-4 mb-6"
+>
+  <p className="text-sm font-mono text-muted-foreground">
+    Contact Developer
+  </p>
+
+  <div className="flex items-center gap-6">
+    <a
+      href="https://instagram.com/very_pretty_kriti"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-muted-foreground hover:text-pink-500 transition-colors"
+    >
+      <FaInstagram size={22} />
+    </a>
+
+    <a
+      href="https://linkedin.com/in/rai-kriti"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-muted-foreground hover:text-blue-500 transition-colors"
+    >
+      <FaLinkedin size={22} />
+    </a>
+
+    <a
+      href="https://github.com/rai-kriti"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-muted-foreground hover:text-primary transition-colors"
+    >
+      <FaGithub size={22} />
+    </a>
+  </div>
+</motion.div>
+
 
           <motion.p
             initial={{ opacity: 0 }}
