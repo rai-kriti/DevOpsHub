@@ -78,7 +78,7 @@ const Footer = () => {
             transition={{ delay: 0.5 }}
             className="text-xs text-muted-foreground/50 mt-4"
           >
-            © {new Date().getFullYear()} DevOps Hub. Automate • Deploy • Scale
+            © {new Date().getFullYear()}Kriti DevOps Hub. Automate • Deploy • Scale
           </motion.p>
         </div>
       </div>
